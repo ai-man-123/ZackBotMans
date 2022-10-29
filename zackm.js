@@ -108,7 +108,7 @@ var ucapanWaktu = 'Selamat Malam'
 
 // TANGGAL ( MyMans APIs )
 var buln = ['/01/', '/02/', '/03/', '/04/', '/05/', '/06/', '/07/', '/08/', '/09/', '/10/', '/11/', '/12/'];
-var myHari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+var myHari = ['Minggu', 'isnin', 'Selasa', 'Rabu', 'Kamis', 'Jumaat', 'Sabtu'];
 var tgel = new Date();
 var hri = tgel.getDate();
 var bulnh = tgel.getMonth();
@@ -278,7 +278,7 @@ if (AntiHidetag) {
 if (m.mentionedJid.length === participants.length) {
 if (!m.isGroup) return // Mendetect Groupnyee
 if (!isBotAdmins) return // Mendetect Botnyee
-m.reply("Jangan maenin hidetag babi!")
+m.reply("Jangan main hidetag banh ")
 await mans.groupParticipantsUpdate(m.chat, [m.sender], 'remove').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 }
 }
@@ -594,11 +594,11 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": log0 //Gambarnye
 },
-"title": "MyMans APIs", //Kasih namalu 
-"description": "SELF BOT", 
+"title": "Lynxman", //Kasih namalu 
+"description": "١٥٧٤", 
 "currencyCode": "USD",
 "priceAmount1000": "2000",
-"retailerId": "MyMans",
+"retailerId": "MyMan",
 "productImageCount": 1
 },
 "businessOwnerJid": `0@s.whatsapp.net`
@@ -615,7 +615,7 @@ orderMessage: {
 itemCount : 1,
 status: 1,
 surface : 1,
-message: 'MyMans', //Kasih namalu
+message: 'Mylynx', //Kasih namalu
 orderTitle: 'Bang',
 thumbnail: log0, //Gambarnye
 sellerJid: '0@s.whatsapp.net'
@@ -630,7 +630,7 @@ key : {
 },
 message: {
 locationMessage: {
-name: 'Russia',
+name: 'malaysia',
 jpegThumbnail: log0
 }
 }
@@ -675,8 +675,8 @@ const fgclink = {
 "groupInviteMessage": {
 "groupJid": "120363043965529911@g.us",
 "inviteCode": "HDmXvmHpEkE9wRJy3IO6OZ",
-"groupName": "ZackMans Broadcast", 
-"caption": "ZackMans Broadcast", 
+"groupName": "lynxman Broadcast", 
+"caption": "lynxman Broadcast", 
 'jpegThumbnail': log0
 }
 }
@@ -690,7 +690,7 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
  "videoMessage": { 
- "title":"ZackMans Official",
+ "title":"lynx Official",
  "h": `Hmm`,
  'seconds': "30", 
  'gifPlayback': 'true', 
@@ -732,12 +732,12 @@ message: {
 
 // Reply
 async function reply(teks) {
-const relink = ['https://youtu.be/GBe1jHscqAY','https://chat.whatsapp.com/HDmXvmHpEkE9wRJy3IO6OZ']
+const relink = ['https://github.com/ai-man-123','tiktok.com/@aiman_nightsad']
 const rurl = relink[Math.floor(Math.random() * relink.length)];
 mamans = teks
 mans.sendMessage(m.chat, {text:mamans, mentions: await mans.parseMention(mamans), contextInfo:{externalAdReply:{
 title: `${ucapanWaktu} ${pushname}`,
-body: "© MyMans APIs - X - ZackMans Official",
+body: "© lynx,Aiman",
 thumbnail: thum,
 mediaType:1,
 mediaUrl: rurl,
@@ -749,9 +749,9 @@ sourceUrl: rurl
 const zckmn = await fetchJson("https://ZackMans.github.io/database/zackbotmans.json")
 const ceknyai = require('./package.json').version
 if (zckmn.update === ceknyai) {
-cekbotinfo = `Anda menggunakan zackbotmans versi terbaru (${ceknyai}), belum ada update dari owner`
+cekbotinfo = `Anda menggunakan lynxman versi terbaru (${ceknyai}), belum ada update dari owner`
 } else {
-cekbotinfo = `Anda menggunakan zackbotmans v${ceknyai}, owner telah mengupdate zackbotmans ke v${zckmn.update}, ketik cekupdate untuk melihat versi terbaru`
+cekbotinfo = `Anda menggunakan lynxman v${ceknyai}, owner telah mengupdate lynx ke v${zckmn.update}, ketik cekupdate untuk melihat versi terbaru`
 }
 
 let getjson = await mans.query({
@@ -767,7 +767,7 @@ let thnsto = getjson.content[0].content[0].content[0].content ? getjson.content[
 let cBandwidth = await checkBandwidth()
 let prefs = ` ▸ ${prefix}`
 const listmn = `*ROBOT WHATSAPP MULTI DEVICE*
-_Script By MyMans APIs - X - ZackMans Official_
+_Script lynxman by Aiman_
 
 ${cekbotinfo}
 
@@ -974,7 +974,7 @@ ${prefs}cowner <add/del>
 > / => / $ / <
 
 THANKS TO :
-adiwajshing, MhankBarBar, Nurutomo, MyMans APIs - X - ZackMans Official, ${thnsto}, Heroku, Replit, Railway, Termux, Rest APIs, Penyedia Module, Mastah Lainya
+adiwajshing, MhankBarBar, Nurutomo, lynxman, ${thnsto}, Heroku, Replit, Railway, Termux, Rest APIs, Penyedia Module, Mastah Lainya
 
 ${ucapanWaktu}
 ${jangwak}`
@@ -993,7 +993,7 @@ video:fs.readFileSync("./media/video/mans.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption: listmn,
-footer: '© MyMans APIs - X - ZackMans Official',
+footer: '© Aiman -x- lynxman',
 templateButtons: templateButtons
 }
 mans.sendMessage(m.chat, templateMessage)
@@ -1452,7 +1452,7 @@ let buttons = [
 let buttonMessage = {
 image: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© lynxman",
 buttons: buttons,
 headerType: 4,
 }
@@ -1858,7 +1858,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© lynxman",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -1902,7 +1902,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© lynxman",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -1947,7 +1947,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: : "© lynxman",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -2122,7 +2122,7 @@ rows: listMsgs
 
 const listMessage = {
 text: "ketuk button dibawah untuk melihat daftar list respon message, ketuk lagi untuk menjalankan fiturnya",
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© lynxman",
 title: "     「 List Respon Message 」",
 buttonText: "List Message",
 sections
@@ -2369,7 +2369,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer : "© lynxman",
 buttons: buttons,
 headerType: 4
 }
@@ -2393,7 +2393,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer : "© lynxman",
 buttons: buttons,
 headerType: 4
 }
@@ -2419,7 +2419,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© lynxman",
 buttons: buttons,
 headerType: 4
 }
@@ -2436,7 +2436,7 @@ bebed = "1"
 }
 if (!Number(args[0])) return m.reply(`Example :\n${prefix + command} 1`)
 servermc(bebed).then(async(res) => {
-let teks = '*| SERVER MC INDONESIA |*\n\nhttps://minecraftpocket-servers.com/country/indonesia/\n\n'
+let teks = '*| SERVER MC Malaysia |*\n\nhttps://minecraftpocket-servers.com/country/malaysia/\n\n'
 let no = 1
 for (let i of res) {
 teks += `▸ Server Ke ${no++}\nip : ${i.ip}\nport : ${i.port}\nversi : ${i.versi}\nplayer : ${i.player}\n\n`
@@ -2448,7 +2448,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: : "© lynxman",
 buttons: buttons,
 headerType: 4
 }
@@ -2526,7 +2526,7 @@ rows: listSerch
 ]
 const listMessage = {
 text: teskd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© lynxman",
 title: "     「 Youtube Search Downloader 」",
 buttonText: "List Search",
 mentions: await mans.parseMention(teskd),
