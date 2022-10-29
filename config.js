@@ -11,7 +11,7 @@ const chalk = require("chalk")
 global.thum = fs.readFileSync("./media/image/thumb.jpg")
 global.log0 = fs.readFileSync("./media/image/mans.jpg")
 global.err4r = fs.readFileSync("./media/image/error.jpg")
-global.owner = ['6283152753417','6283121365947','6288292024190']
+global.owner = ['60102810046','0','0']
 global.rkyt = []
 global.ntilink = ['120363043965529911@g.us']
 global.ntihide = ['120363043965529911@g.us']
@@ -21,14 +21,14 @@ global.autkick = ['120363043965529911@g.us']
 global.gcrevoke = ['16472412324-1386525986@g.us']
 global.wjoind = []
 global.wleaved = []
-global.packname = "MyMans APIs"
-global.packname2 = "MyMainas"
-global.author = "ZackMans"
+global.packname = "lynxman"
+global.packname2 = "Bot whtsapp "
+global.author = "Aiman"
 global.sessionName = "mans"
-global.linkgrupss = "https://chat.whatsapp.com/HDmXvmHpEkE9wRJy3IO6OZ"
-global.antitags = true
+global.linkgrupss = "-"
+global.antitags = false
 global.autred = true
-global.anticals = true
+global.anticals = false
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
     success: 'Success',
@@ -44,7 +44,7 @@ global.mess = {
 }
 global.limitawal = {
     rakyat: "Infinity",
-    free: 100
+    free: 1000
 }
 
 let file = require.resolve(__filename)
