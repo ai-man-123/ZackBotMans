@@ -84,7 +84,7 @@ let buttons = [
 let buttonMessage = {
 image: {url:ppgroup},
 caption: teks,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© lynxman",
 buttons: buttons,
 headerType: 4,
 }
@@ -99,7 +99,7 @@ let buttons = [
 let buttonMessage = {
 image: {url:ppgroup},
 caption: teks,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© lynxman",
 buttons: buttons,
 headerType: 4,
 }
@@ -153,7 +153,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: mbcs,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© lynxman",
 buttons: buttons,
 headerType: 4,
 }
@@ -197,7 +197,7 @@ let buttons = [
 let buttonMessage = {
 image: fs.readFileSync("./storage/hasil.jpg"),
 caption: mbc,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© lynxman",
 mentions:[num],
 buttons: buttons,
 headerType: 4,
@@ -222,7 +222,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: tesgd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© lynxman",
 buttons: buttons,
 mentions: [num],
 headerType: 4,
